@@ -1,0 +1,48 @@
+.principal{
+    text-align: center;
+    margin: 30px auto;
+}
+
+.card{
+    margin: 1px auto;
+}
+
+
+#hoover{
+    visibility: hidden; 
+}
+
+.card-img-container{
+    z-index: 3;
+} 
+
+.card-img-top{  
+    z-index: 1;
+    height: 371px;
+}
+
+#hoover{   
+    color: white;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 0px;
+    z-index: 2;
+    width: 559px;
+    height: 371px;
+    background-color: #000000aa ;
+}
+
+.detalle{ 
+    font-weight: 700;
+    font-size:xx-large;
+}
+
+.ubicacion{   
+    font-weight: 200px
+}
+
+/*.card-img-container:hover #hoover{
+    visibility: visible !important; 
+}
+
